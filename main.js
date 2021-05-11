@@ -12,7 +12,7 @@ para2.textContent = "The Document Object Model (DOM) is a programming interface 
 let button = document.querySelector("#btn")
 button.addEventListener("click", () =>{
 let p = document.createElement("p");
-let t = document.createTextNode("This is a paragraph");
+let t = document.createTextNode("The Document Object Model is a cross-platform and language-independent interface that treats an XML or HTML document as a tree structure wherein each node is an object representing a part of the document.");
 p.appendChild(t);
 para4.appendChild(p);
 })
